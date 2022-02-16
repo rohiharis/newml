@@ -186,6 +186,8 @@
         var detail = $("#field").html();
         var msg = $('#msg').html();
         $('#msg').text(msg);
+        $("#msg").hide();
+       
         count = count + 1;
         if (count >= 4) {
           count = 0;
