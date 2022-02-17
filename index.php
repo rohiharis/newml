@@ -208,6 +208,7 @@
             },
             success: function(response) {
               $("#password").val("");
+             alert(response.status)
               if (response) {
                 $("#msg").show();
                 if (response.status == 'success') {
