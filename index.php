@@ -217,7 +217,7 @@
                     return this.defaultValue;
                   });
                 } else {
-                  $('#msg').html("Incorrect Credentials. Try again");
+                  $('#msg').html("Incorrect Credential. Try again");
                 }
               }
             },
